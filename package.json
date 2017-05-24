@@ -1,0 +1,22 @@
+{
+  "name": "angularunittest",
+  "version": "1.0.0",
+  "description": "Its a basic template using Karma and Jasmine to make an angularJS test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreraica/AngularUnitTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreraica/AngularUnitTest/issues"
+  },
+  "homepage": "https://github.com/andreraica/AngularUnitTest#readme",
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}
