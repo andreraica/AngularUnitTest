@@ -1,5 +1,6 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+var webpack = require("webpack");
 
 module.exports = {
     entry: './src/app/js/app.js',
@@ -15,6 +16,9 @@ module.exports = {
             //    collapseWhitespace: true
             //},
             hash: true
+        }),
+        new webpack.DefinePlugin({
+            varGlobal : JSON.stringify('teste Global')
         })
     ]
 }
