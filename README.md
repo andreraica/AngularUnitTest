@@ -5,7 +5,9 @@ Its a basic template using Karma and Jasmine to make an angularJS test
 
 root folder - npm install
 src/app folder - bower install
-root folder (build webpack to dist folder) - npm run dev 
+root folder (build webpack to dist folder) - npm run dev
+open in browser the page - ..AngularUnitTest/dist/index.html 
+
 root folder (test project) - karma start
 
 # Create Project --------------
