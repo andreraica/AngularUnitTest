@@ -1,6 +1,15 @@
 # AngularUnitTest
 Its a basic template using Karma and Jasmine to make an angularJS test
 
+# Running Project
+
+root folder - npm install
+src/app folder - bower install
+root folder (build webpack to dist folder) - npm run dev 
+root folder (test project) - karma start
+
+# Create Project --------------
+
 # Basic Commands
 
 create a folder
@@ -24,3 +33,14 @@ Edit package.json (scripts dev / prod)
 npm i html-webpack-plugin --save-dev
 change yourself the webpack.config.js
 npm run dev
+
+# Karma / Jasmine Test Commands
+
+npm install karma karma-jasmine jasmine-core karma-chrome-launcher --save-dev
+npm install -g karma-cli
+karma init
+make app.spec.js (any test)
+bower install angular --save-dev
+bower install angular-mocks --save-dev
+bower install angular-resource --save-dev
+karma start
